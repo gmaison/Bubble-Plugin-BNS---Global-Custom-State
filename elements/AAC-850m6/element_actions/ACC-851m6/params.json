@@ -1,0 +1,16 @@
+{
+    "caption": "Set State List",
+    "doc": "Sets the Global Custom State List",
+    "fields": {
+        "ACD": {
+            "caption": "List Value",
+            "doc": "The Global Custom State's new list value",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "list_value",
+            "optional": false,
+            "rank": 0,
+            "value": "custom_data_element_ABx"
+        }
+    }
+}

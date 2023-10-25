@@ -1,0 +1,81 @@
+{
+    "category": "plugins",
+    "display": "getAblyAuthToken",
+    "fields": {
+        "AAP": {
+            "caption": "clientId",
+            "doc": "Client Id to build the token",
+            "editor": "DynamicValue",
+            "name": "clientId",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "ttl",
+            "default_val": 3600000,
+            "doc": "TTL for the token",
+            "editor": "DynamicValue",
+            "name": "ttl",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "Token",
+            "name": "token",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "keyName",
+            "name": "keyName",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "issued",
+            "name": "issued",
+            "rank": 2,
+            "value": "date"
+        },
+        "AAM": {
+            "caption": "expires",
+            "name": "expires",
+            "rank": 3,
+            "value": "date"
+        },
+        "AAN": {
+            "caption": "capability",
+            "name": "capability",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "clientId",
+            "name": "clientId",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "userClaims",
+            "name": "userClaims",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "limitsClaims",
+            "name": "limitsClaims",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "error",
+            "name": "error",
+            "rank": 8,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

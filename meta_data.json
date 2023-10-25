@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity"
+    },
+    "demo_page": "https://bnsplugins.bubbleapps.io/version-test/gcs",
+    "description": "This plugin allows you to share custom states between all the reusables and repeating groups (or nested into reusables or RGs) dropped on a page.\n\nYou can create Global Custom States dynamically and set their values dynamically.\n\nIt can handle single values as lists of any datatype defined in your app.\n",
+    "image": "//meta-l.cdn.bubble.io/f1695896218538x908101085214569200/a%20message%20broadcaster.png",
+    "license": "open_source",
+    "link": "https://bestnocodestudio.com/bns-global-custom-state-8",
+    "name": "BNS - Global Custom State",
+    "plugin_instructions": "Drop the plugin element where you want to access your Global Custom State.\n\nHint: it is better, for use, to create the Global Custom States at the page level. However, you can create it whenever you want.\n\nNote: if the element is dropped into a collapsed element (group, reusable element, popup), it won’t be created nor accessible until the element is made visible.\n\nYou can then set:\n- the name of your Global Custom State\n- its datatype \n- its Default Value\n- its Default List\n\nEach Global Custom State can handle a single value AND a list, both of the same datatype. You can respectively access the single value and the list value by using <plugin element's name>'s Global Custom State Value and <plugin element's name>'s Global Custom State List.\n\nTo set the value in a workflow (like the \"set states of an element\" action) to the Single Value or the List Value by using the respective actions Set State Value and Set State List.\n\n\nUse cases:\n\nWhenever you need to share a value through all the element that are on a page, whether directly on the page or even however deeply nested into reusable elements and repeating groups.\n\nGlobal Custom States can be dynamically created (ie if for a Global Custom State Element you set its name dynamically, it’ll create as many GCS Values as there’re names).\n\nNote : it works only at the page level and not app wide. Moreover, whenever you refresh the page, all the Global Custom States values are reset.",
+    "sa_node_version": 18
+}

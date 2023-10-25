@@ -1,0 +1,15 @@
+{
+    "caption": "Set State Value",
+    "doc": "Sets the Global Custom State Value",
+    "fields": {
+        "ABu": {
+            "caption": "Value",
+            "doc": "The Global Custom State's new value",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "value",
+            "rank": 0,
+            "value": "custom_data_element_ABx"
+        }
+    }
+}

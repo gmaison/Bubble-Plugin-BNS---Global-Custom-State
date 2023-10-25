@@ -1,0 +1,94 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 24,
+        "width": 24
+    },
+    "display": "Global Custom State",
+    "fields": {
+        "ABv": {
+            "caption": "State Name",
+            "doc": "Global Custom State Name",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "global_custom_state_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABx": {
+            "caption": "State Datatype",
+            "doc": "Global Custom State Value Datatype",
+            "editor": "custom_type",
+            "long_text": true,
+            "name": "global_custom_state_value_datatype",
+            "optional": true,
+            "rank": 1,
+            "value": "_any_thing"
+        },
+        "ACA": {
+            "caption": "Default State Value",
+            "doc": "Global Custom State Default value",
+            "editor": "DynamicValue",
+            "name": "global_custom_state_value",
+            "optional": true,
+            "rank": 2,
+            "value": "custom_data_ABx"
+        },
+        "ACB": {
+            "caption": "Default State List",
+            "doc": "Global Custom State Default List",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "global_custom_state_value_list",
+            "optional": true,
+            "rank": 3,
+            "value": "custom_data_ABx"
+        }
+    },
+    "icon": "ion-arrow-shrink",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "ABi": {
+            "caption": "Global Custom State Name",
+            "doc": "Global Custom State Name",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": false,
+            "name": "custom_state_name",
+            "value": "text"
+        },
+        "ABm": {
+            "caption": "Global Custom State Value",
+            "doc": "Global Custom State value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "custom_state_value",
+            "value": "custom_data_ABx"
+        },
+        "ABy": {
+            "caption": "Custom States",
+            "doc": "All the active Custom States",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "custom_states",
+            "value": "text"
+        },
+        "ABz": {
+            "caption": "Global Custom State List",
+            "doc": "Global Custom State list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "custom_state_value_list",
+            "value": "custom_data_ABx"
+        }
+    }
+}
