@@ -8,6 +8,7 @@
             "editor": "DynamicValue",
             "long_text": true,
             "name": "value",
+            "optional": true,
             "rank": 0,
             "value": "custom_data_element_ABx"
         }

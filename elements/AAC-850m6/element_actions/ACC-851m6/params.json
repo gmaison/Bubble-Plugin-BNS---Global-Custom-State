@@ -8,7 +8,7 @@
             "editor": "DynamicValue",
             "is_list": true,
             "name": "list_value",
-            "optional": false,
+            "optional": true,
             "rank": 0,
             "value": "custom_data_element_ABx"
         }
